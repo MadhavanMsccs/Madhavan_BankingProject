@@ -1,0 +1,52 @@
+/* Create.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card-container {
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  h4 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #label {
+    margin-top: 10px;
+  }
+  
+  #input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #submitbtn,
+  #resetbtn {
+    width: 48%;
+    margin-top: 20px;
+  }
+  
+  #submitbtn {
+    background-color: #dc3545; /* Bootstrap Danger color */
+    border-color: #dc3545;
+    color: #fff;
+  }
+  
+  #resetbtn {
+    background-color: #007bff; /* Bootstrap Primary color */
+    border-color: #007bff;
+    color: #fff;
+  }
+  

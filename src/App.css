@@ -1,0 +1,115 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.form-container {
+  width: 80%;
+  max-width: 400px; 
+  padding: 20px;
+  background-color: #f8f9fa; 
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+.App {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  background-image: linear-gradient(to right, #ff6a00, #ee0979);
+  padding: 10px;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#home {
+  margin-top: 100px;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  color: #333;
+}
+
+#span-1 {
+  color: #ff2e63;
+}
+
+#span-2 {
+  color: #3e64ff;
+}
+
+#table {
+  width: 90%;
+  height: 20vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#label {
+  margin-left: 10px;
+}
+
+#input {
+  width: 300px;
+  margin-left: 10px;
+}
+
+#submitbtn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #3e64ff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+#resetbtn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #ff2e63;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+form {
+  margin-top: 20px;
+}
+
+#nav {
+  background-color: #ff6a00;
+  padding: 10px 0;
+}
+
+#nav-list {
+  color: rgb(20, 24, 235);
+}
+
+body {
+  background-color: #0e0808;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+

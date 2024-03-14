@@ -1,0 +1,50 @@
+/* styles.css */
+
+/* Center container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust according to your needs */
+  }
+  
+  /* Box style */
+  .card {
+    background-color: #f0f0f0; /* Adjust background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjust shadow */
+  }
+  
+  /* Button style */
+  button {
+    margin-top: 10px; /* Adjust spacing */
+    padding: 10px 20px;
+    background-color: #007bff; /* Adjust button color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Adjust hover color */
+  }
+  
+  /* Form input style */
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Adjust border color */
+  }
+  
+  /* Form label style */
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  

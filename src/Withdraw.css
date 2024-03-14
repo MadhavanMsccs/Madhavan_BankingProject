@@ -1,0 +1,65 @@
+/* Withdraw.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light gray background color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  .card h4 {
+    text-align: center;
+  }
+  
+  .card hr {
+    border-color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  #label {
+    color: #333;
+  }
+  
+  #input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #submitbtn,
+  #resetbtn {
+    width: 48%;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #submitbtn {
+    background-color: #dc3545; /* Bootstrap Danger color */
+    border-color: #dc3545;
+    color: #fff;
+  }
+  
+  #resetbtn {
+    background-color: #007bff; /* Bootstrap Primary color */
+    border-color: #007bff;
+    color: #fff;
+  }
+  
+  #submitbtn:hover,
+  #resetbtn:hover {
+    opacity: 0.8;
+  }
+  
